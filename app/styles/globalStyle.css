@@ -1,0 +1,21 @@
+html, body{
+    margin:0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+li{
+    list-style: none;
+}
+
+.catch{
+    width: 58%;
+    background: #f0bdbd;
+    padding: 20px;
+    border-radius: 8px;
+    color: #471515;
+}

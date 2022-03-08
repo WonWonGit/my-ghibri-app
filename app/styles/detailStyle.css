@@ -1,0 +1,125 @@
+.detail{
+    height: 100%;
+    padding-bottom: 200px;
+}
+
+.bannerDiv{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.bannerDiv > img{
+    width: 100%;
+    height: inherit;
+}
+
+.bannerDiv > .movie-title{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: xxx-large;
+    font-weight: 800;
+    background-color:rgb(21 21 21 / 60%);
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+.movie-detail{
+    margin: 20px;
+    padding: 20px;
+}
+
+.summary{
+    display: flex
+}
+
+.summary p{
+    color: #534d4d;
+    margin-right: 10px;
+}
+
+.component{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.character{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.character > ul > li > div{
+    padding: 0 40px;
+    width: 500px;
+    border: 1px solid #adabab;
+    border-radius: 9px;
+    text-align: center;
+    margin: 5px;
+}
+
+.character > ul {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.character > ul > li > div > p {
+    cursor: pointer;
+}
+
+.comment_child{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.character_info{
+    padding: 20px;
+    width: 500px;
+    border-radius: 8px;
+    border: 1px solid #b3c2e8;
+    box-shadow: 7px 9px 10px 6px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.comment_list{
+    display: flex;
+    padding: 20px;
+    width: 500px;
+    border-radius: 8px;
+    border: 1px solid #2e4fab;
+    box-shadow: 7px 9px 10px 6px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.comment_name{
+    font-size: 11px;
+    align-self: end;
+    color: gray;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    width: 60%;
+}
+
+textarea{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    width: 60%;
+}
+
+.comment_btn{
+    width: 63%;
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+.form_div p{
+    color: darkred;
+}
